@@ -1,0 +1,324 @@
+
+\documentclass[10pt,a4paper]{article}
+
+% =========================================================
+% PACKAGES
+% =========================================================
+\usepackage[
+    top=0.45in,
+    bottom=0.45in,
+    left=0.60in,
+    right=0.60in
+]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{microtype}
+
+% =========================================================
+% COLOR
+% =========================================================
+\definecolor{sectioncolor}{HTML}{1F4E79}
+
+% =========================================================
+% GENERAL FORMATTING
+% =========================================================
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Compact bullet points
+\setlist[itemize]{
+    leftmargin=1.15em,
+    label=\textbullet,
+    itemsep=1pt,
+    topsep=1pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% =========================================================
+% SECTION STYLE
+% =========================================================
+\titleformat{\section}
+    {\normalsize\bfseries\color{sectioncolor}}
+    {}
+    {0pt}
+    {}
+    [\vspace{1pt}\titlerule]
+
+\titlespacing*{\section}
+    {0pt}
+    {5pt}
+    {3pt}
+
+% =========================================================
+% CUSTOM COMMANDS
+% =========================================================
+
+\newcommand{\resumeEntry}[3]{
+    \textbf{#1} \hfill \textbf{#2}\\
+    \textit{#3}
+}
+
+\newcommand{\projectEntry}[2]{
+    \textbf{#1} \hfill \textit{#2}
+}
+
+% =========================================================
+% DOCUMENT
+% =========================================================
+
+\begin{document}
+
+% =========================================================
+% HEADER
+% =========================================================
+
+\begin{center}
+
+    {\Large\textbf{JOHN ANDERSON}}\\[2pt]
+
+    \textbf{Software Engineer}\\[2pt]
+
+    +123456789
+    \;|\;
+    \href{mailto:john.anderson@email.com}{john.anderson@email.com}
+    \;|\;
+    \href{https://www.linkedin.com/in/john-anderson}{LinkedIn}
+    \;|\;
+    \href{https://github.com/john}{GitHub}
+    \;|\;
+    \href{https://leetcode.com/john}{LeetCode}
+
+\end{center}
+
+
+% =========================================================
+% OBJECTIVE
+% =========================================================
+
+\section*{OBJECTIVE}
+
+Software Engineer focused on full-stack and backend development, with
+experience building web applications, REST APIs, and database-driven systems.
+Proficient in Python, JavaScript, React, and SQL, with hands-on experience in
+software development, API integration, and collaborative Git-based workflows.
+
+
+% =========================================================
+% EDUCATION
+% =========================================================
+
+\section*{EDUCATION}
+
+\resumeEntry
+    {BSc in Computer Science --- Stanford University}
+    {2018}
+    {CGPA: 9.0/10}
+
+\resumeEntry
+    {Higher Secondary Education --- Example Junior College}
+    {2016}
+    {Percentage: 90\%}
+
+\resumeEntry
+    {Secondary Education --- Example High School}
+    {2014}
+    {Percentage: 92\%}
+
+
+% =========================================================
+% TECHNICAL SKILLS
+% =========================================================
+
+\section*{TECHNICAL SKILLS}
+
+\textbf{Languages:}
+Python, JavaScript, SQL
+
+\textbf{Frontend:}
+React.js, HTML5, CSS3
+
+\textbf{Backend:}
+Node.js, REST APIs, API Development
+
+\textbf{Databases:}
+SQL, PostgreSQL, MongoDB
+
+\textbf{Tools:}
+Git, GitHub, VS Code
+
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+
+\section*{EXPERIENCE}
+
+\resumeEntry
+    {Software Developer --- TechCorp}
+    {2019 -- Present}
+    {City, Country}
+
+\begin{itemize}
+
+    \item Developed and maintained software applications using reusable
+    components, clean code practices, and structured development workflows.
+
+    \item Designed and implemented REST APIs connecting frontend applications
+    with backend services and database systems.
+
+    \item Built responsive web interfaces using JavaScript and React.js,
+    integrating frontend components with backend functionality.
+
+    \item Developed SQL queries and database operations supporting application
+    features, data retrieval, and data management workflows.
+
+    \item Collaborated with developers and stakeholders to troubleshoot issues
+    and deliver software features.
+
+\end{itemize}
+
+
+\resumeEntry
+    {Backend Intern --- Codebase}
+    {2018 -- 2019}
+    {City, Country}
+
+\begin{itemize}
+
+    \item Developed backend services and REST API endpoints using Python and
+    database integrations.
+
+    \item Implemented SQL queries and application-level data operations for
+    backend functionality.
+
+    \item Investigated software defects, reproduced issues, and contributed
+    fixes using Git-based development workflows.
+
+\end{itemize}
+
+
+% =========================================================
+% PROJECTS
+% =========================================================
+
+\section*{PROJECTS}
+
+\projectEntry
+    {Portfolio Website --- Personal Project}
+    {2024}
+
+\begin{itemize}
+
+    \item Built a responsive portfolio website to showcase projects,
+    technical skills, and professional experience.
+
+    \item Developed reusable frontend components using React.js and structured
+    the application for maintainable content updates.
+
+    \item Implemented responsive layouts and modular component architecture
+    using JavaScript, React.js, HTML5, and CSS3.
+
+    \item Extended the basic portfolio concept with responsive design,
+    structured navigation, and organized project sections.
+
+    \item \href{https://github.com/username/portfolio}{GitHub}
+    \;|\;
+    \href{https://portfolio-demo.com}{Live Demo}
+
+\end{itemize}
+
+
+\projectEntry
+    {Task Tracker Application --- Personal Project}
+    {2024}
+
+\begin{itemize}
+
+    \item Developed a task management application supporting task creation,
+    modification, completion, deletion, and status tracking.
+
+    \item Structured the application using REST APIs with separate frontend,
+    backend, business-logic, and database components.
+
+    \item Integrated React.js, REST APIs, SQL, and Git to provide persistent
+    task management and structured application workflows.
+
+    \item Enhanced the basic task-management concept with persistent storage,
+    status tracking, API integration, and modular application design.
+
+    \item Applied CRUD operations, database querying, and REST-based
+    communication to manage application data.
+
+    \item \href{https://github.com/username/task-tracker}{GitHub}
+    \;|\;
+    \href{https://tasktracker-demo.com}{Live Demo}
+
+\end{itemize}
+
+
+% =========================================================
+% OPEN SOURCE
+% =========================================================
+
+\section*{OPEN SOURCE CONTRIBUTIONS}
+
+\textbf{Open Source Contributor --- GitHub Projects}
+
+\begin{itemize}
+
+    \item Contributed code fixes and improvements to open-source projects
+    through GitHub issues, branches, commits, and pull requests.
+
+    \item Reviewed unfamiliar codebases, followed existing project conventions,
+    and collaborated through issue discussions and code reviews.
+
+\end{itemize}
+
+
+% =========================================================
+% LEADERSHIP
+% =========================================================
+
+\section*{LEADERSHIP \& EXTRACURRICULARS}
+
+\textbf{Technical Club Member / Volunteer}
+
+\begin{itemize}
+
+    \item Supported technical workshops, coding activities, and peer-learning
+    initiatives focused on programming and software development.
+
+    \item Collaborated with students and team members to organize technical
+    events and knowledge-sharing sessions.
+
+\end{itemize}
+
+
+% =========================================================
+% ACHIEVEMENTS
+% =========================================================
+
+\section*{ACHIEVEMENTS}
+
+\begin{itemize}
+
+    \item Ranked in college coding competitions and technical events focused
+    on programming and problem solving.
+
+    \item Completed software projects covering frontend, backend, API
+    development, and database integration.
+
+    \item Demonstrated consistent practice in programming and software
+    development.
+
+\end{itemize}
+
+\end{document}
