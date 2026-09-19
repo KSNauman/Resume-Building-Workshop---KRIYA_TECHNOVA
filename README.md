@@ -1,6 +1,6 @@
 # Resume Building Workshop
 
-> ### 🚀 Brought to you by the **KRIYA-TECHNOVA** club (AIML Department)
+> ###  Brought to you by the **KRIYA-TECHNOVA** club (AIML Department)
 
 Welcome to the Resume Building Workshop resource repository! 
 
