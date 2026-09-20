@@ -79,7 +79,6 @@ An ATS score is a measure of how well your resume matches a particular job descr
    pip --version
    git --version
    ```
-   *(If you don't have Git, download it here: [git-scm.com/install/windows](https://git-scm.com/install/windows))*
 
 2. **Clone the Open ATS Repository:**
    ```bash
