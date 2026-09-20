@@ -1,6 +1,6 @@
-# Resume Building Workshop
+# Resume Building Workshop by **KRIYA-TECHNOVA**
 
-> ### 🚀 Brought to you by the **KRIYA-TECHNOVA** club (AIML Department)
+> ### Brought to you by the **KRIYA-TECHNOVA** club (AIML Department)
 
 Welcome to the Resume Building Workshop resource repository! 
 
@@ -12,6 +12,7 @@ This repository contains all the templates, guides, and checklists you need to b
 - **DOCX Template:** A Microsoft Word template (check the `templates/` folder).
 - **Resume Guide:** Comprehensive best practices for writing your resume.
 - **Resume Checklist:** A checklist to review your resume before hitting submit.
+
 
 
 ## Quick Start
@@ -60,3 +61,39 @@ If a recruiter or application portal asks for a link to your resume instead of a
 4. Under "General access", change the setting from "Restricted" to **"Anyone with the link"**.
 5. Make sure the permission role is set to **Viewer** (do not give Editor access).
 6. Click **Copy link** and share it!
+
+## Bonus: Check Your ATS Score Locally
+
+During the workshop, we demonstrated how to test your resume against a job description using an open-source ATS scanner.
+
+**What is an ATS?**
+ATS stands for Applicant Tracking System. It is software used by companies to automatically screen and filter resumes before a recruiter reviews them.
+
+**What is an ATS score?**
+An ATS score is a measure of how well your resume matches a particular job description according to factors such as keywords, skills, experience, education, and formatting.
+
+### Setup Instructions
+
+1. **Verify Prerequisites:** Make sure you have Python (pip) and Git installed.
+   ```bash
+   pip --version
+   git --version
+   ```
+   *(If you don't have Git, download it here: [git-scm.com/install/windows](https://git-scm.com/install/windows))*
+
+2. **Clone the Open ATS Repository:**
+   ```bash
+   git clone https://github.com/jlynshue/open-ats.git
+   ```
+
+3. **Install Open ATS:**
+   ```bash
+   python -m pip install -e .
+   ```
+
+4. **Run the ATS Scan:**
+   Prepare your exported `resume.pdf` and a `job.txt` file containing the job description you are targeting. Then run:
+   ```bash
+   open-ats scan --resume "E:\ATS\resume.pdf" --job-description "E:\ATS\job.txt" --output "E:\ATS\report.json"
+   ```
+   *(Replace the `E:\ATS\...` paths above with the actual locations of your files).*

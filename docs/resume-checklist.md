@@ -3,21 +3,19 @@
 Use this checklist to review your resume before submitting any application. 
 
 ### CONTENT & STRATEGY
-- [ ] **Tailored for company type:** Content is adjusted based on if applying to small companies vs MAANG/Product companies.
+- [ ] **Tailored for company type:** Content is adjusted based on companies.
 - [ ] **Strongest sections first:** Your strongest and most relevant sections are placed at the top.
 - [ ] **Professional email:** Using a standard, professional email address.
 - [ ] **Relevant links on top:** LinkedIn, GitHub, and LeetCode links are placed at the very top.
-- [ ] **Genuine skills:** Only listed technologies you can answer questions about. Added tools if needed to fill space.
+- [ ] **Genuine skills:** Only listed technologies you can answer questions about.
 - [ ] **Soft skills have evidence:** Soft skills are only included if backed by experience in clubs or Positions of Responsibility (POR).
-- [ ] **Education is complete:** Includes degrees, grad year, and any notable ranks (like JEE/KCET). You are prepared to discuss backlogs if asked.
-- [ ] **Projects are well-structured:** Each project includes Title, Description, Technologies used, and Links. (Tailored for company specific projects if applicable).
-- [ ] **Experience is detailed:** Includes Designation, Company & Location, Dates, Impact made, and Technologies used.
+- [ ] **Education is complete:** Includes degrees, grad year, and any notable ranks (like JEE/KCET).
+- [ ] **Projects are well-structured:** Each project includes Title, Description, Technologies used,Algorithms used ,metrics enhanced, and Links. (Tailored for company specific projects if applicable).
+- [ ] **Experience is detailed:** Includes Designation, Company & Location, Dates, Impact made, and Technologies used, Note training is not internships
 - [ ] **Custom sections (Optional):** Created specific sections like Hackathons, Research, or Competitive Programming if highly relevant.
 - [ ] **Achievements prioritized:** Technical achievements listed first, followed by non-technical (contest ranks, hackathons, publications, awards).
 
 ### FORMATTING & LAYOUT
-- [ ] **One page:** The resume strictly fits on a single page.
-- [ ] **Single-column:** A standard, ATS-friendly single-column layout is used.
 - [ ] **Clear sections:** Divided into clear sections (Skills, Education, Projects, Experience, Achievements, Hobbies/POR).
 - [ ] **Simple font:** A clean, professional font is used. Maximum two fonts.
 - [ ] **Appropriate colors:** Only black and/or dark blue text is used.
